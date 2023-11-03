@@ -21,7 +21,8 @@ document.getElementById("result2").onclick = function () {
   var i5 = document.getElementById("input2_5").value;
   i5 = Number(i5);
   var sum = i1 + i2 + i3 + i4 + i5;
-  document.querySelector(".r2").innerHTML = " " + sum;
+  var result = sum / 5;
+  document.querySelector(".r2").innerHTML = " " + result;
 };
 
 document.getElementById("result3").onclick = function () {
